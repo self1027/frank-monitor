@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frank trabalha hoje?</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Frank trabalha hoje?</h1>
+        <div id="status">Carregando...</div>
+        
+        <div class="info-box">
+            <p>Frank trabalha em dias alternados (incluindo fins de semana).</p>
+            <p>Último dia trabalhado: <span id="lastWorkedDate">17 de Maio de 2025</span></p>
+        </div>
+
+        <h2>Agenda deste mês</h2>
+        <div class="calendar-container">
+            <div id="calendar-header" class="calendar-header"></div>
+            <div id="calendar" class="calendar-grid"></div>
+        </div>
+
+        <h2>Agenda futura</h2>
+        <div class="calendar-controls">
+            <button id="prev-year">◄◄ Ano anterior</button>
+            <button id="today">Hoje</button>
+            <button id="next-year">Próximo ano ►►</button>
+        </div>
+        <div class="infinite-calendar" id="infinite-calendar">
+            <div class="loading-indicator">Carregando calendário...</div>
+        </div>
+
+        <footer>
+            <p>Atualizado em: <span id="currentDate"></span></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
