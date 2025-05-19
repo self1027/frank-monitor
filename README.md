@@ -1,7 +1,7 @@
 ```markdown
 # Frank's Work Schedule Tracker 🇧🇷
 
-![App Screenshot](screenshot.png)
+![App Screenshot](./images/image.png)
 
 A simple web app that predicts whether Frank is working today based on his alternating day schedule pattern.
 
