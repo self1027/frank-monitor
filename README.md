@@ -1,4 +1,3 @@
-```markdown
 # Frank's Work Schedule Tracker 🇧🇷
 
 ![App Screenshot](./images/image.png)
