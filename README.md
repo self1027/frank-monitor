@@ -47,4 +47,3 @@ To modify:
 ## License 📄
 
 MIT License - Free for personal and commercial use
-```
